@@ -46,9 +46,6 @@ In the **Product Catalog**, create schemas for each data product with descriptio
 CREATE SCHEMA IF NOT EXISTS fnma_product_catalog_jcg.acquisition_and_origination_analytics
 COMMENT 'Data product for analyzing loan acquisition trends, originator performance, and borrower risk profiles at origination';
 
--- Add tags to schemas for categorization
-ALTER SCHEMA fnma_product_catalog_jcg.acquisition_and_origination_analytics 
-SET TAGS ('domain' = 'lending', 'use_case' = 'origination_analytics');
 ```
 
 **Required Product Schemas:**
